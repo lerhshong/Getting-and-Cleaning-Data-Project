@@ -3,6 +3,7 @@
 To use, set working directory as UCI HAR dataset folder
 
 The following steps were used to obtain the output:
+
 1. Define a function, readdataset, that reads in all the separate files
 
 2. Fix the test set
