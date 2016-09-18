@@ -1,0 +1,22 @@
+# Background
+Description of the project can be found here: 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
+Data of the project can be found here:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+The data records the activities of 30 individuals performing six activities. Measurements were recorded from the in-built accelerometer
+and gyroscope of a Samsung Galaxy II attached to the individuals' waist. Obtained measurements include:
+  * Triaxial acceleration from the accelerometer and the estimated body acceleration
+  * Triaxial angular velocity from the gyroscope
+
+The features are normalized and bounded within [-1,1]. Each feature vector is a row on the text file.
+
+# Objective of the project
+  *To clean the data and merge the datasets provided (a training set and test set). 
+  *Create a second, independent tidy dataset with the average of each variable for each activity and subject.
+  
+# Variable names
+  * X/Y/Z - indicates the axis of vector
+  * time/freq - a fourier transform was applied to the data - this indicates if the data is in time domain or frequency domain.
+  
